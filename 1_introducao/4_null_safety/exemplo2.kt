@@ -12,7 +12,8 @@ fun describeString(maybeString: String?): String {              // 1
     }
 }
 
-
 fun main() {
     println(describeString(null))
+    println(describeString(""))
+    println(describeString("dio.me"))
 }

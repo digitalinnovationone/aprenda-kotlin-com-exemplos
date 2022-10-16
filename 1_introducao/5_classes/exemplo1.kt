@@ -15,5 +15,7 @@ fun main() {
     val contact = Contact(1, "mary@gmail.com")  // 4
 
     println(contact.id)                         // 5
+    println(contact.email)
     contact.email = "jane@gmail.com"            // 6
+    println(contact.email)
 }

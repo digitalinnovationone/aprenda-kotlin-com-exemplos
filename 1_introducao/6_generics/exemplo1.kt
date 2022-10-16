@@ -23,8 +23,8 @@ class MutableStack<E>(vararg items: E) {              // 1
 
 
 fun main() {
-  val stack = MutableStack(0.62, 3.14, 2.7)
-  stack.push(9.87)
+  val stack = MutableStack("A", "B", "C")
+  stack.push("D")
   println(stack)
 
   println("peek(): ${stack.peek()}")
